@@ -48,7 +48,7 @@ class CarControllerParams:
 
     # Default for most HKG
     else:
-      self.STEER_MAX = 410
+      self.STEER_MAX = 405
 
 
 class HyundaiFlags(IntFlag):
