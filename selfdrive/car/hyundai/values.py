@@ -750,6 +750,6 @@ EV_CAR = CAR.with_flags(HyundaiFlags.EV)
 
 LEGACY_SAFETY_MODE_CAR = CAR.with_flags(HyundaiFlags.LEGACY)
 
-UNSUPPORTED_LONGITUDINAL_CAR = CAR.with_flags(HyundaiFlags.LEGACY) | CAR.with_flags(HyundaiFlags.UNSUPPORTED_LONGITUDINAL)
+UNSUPPORTED_LONGITUDINAL_CAR = CAR.with_flags(HyundaiFlags.UNSUPPORTED_LONGITUDINAL)
 
 DBC = CAR.create_dbc_map()
